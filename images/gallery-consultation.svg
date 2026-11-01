@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="conGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF5FF"/>
+      <stop offset="100%" stop-color="#F3E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#conGrad)"/>
+  <polygon points="0,290 600,290 600,400 0,400" fill="#E2E8F0"/>
+
+  <!-- Doctor Consultation Desk -->
+  <rect x="180" y="210" width="260" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Laptop on desk -->
+  <rect x="260" y="180" width="60" height="35" rx="3" fill="#64748B"/>
+  <rect x="250" y="215" width="80" height="5" rx="2" fill="#94A3B8"/>
+  
+  <!-- Diplomas / Certificates on wall -->
+  <rect x="180" y="70" width="70" height="50" rx="4" fill="#FFFFFF" stroke="#D8B4FE" stroke-width="2"/>
+  <line x1="190" y1="85" x2="240" y2="85" stroke="#7C3AED" stroke-width="2"/>
+  <line x1="190" y1="95" x2="230" y2="95" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="215" cy="108" r="4" fill="#D97706"/>
+
+  <rect x="280" y="70" width="70" height="50" rx="4" fill="#FFFFFF" stroke="#D8B4FE" stroke-width="2"/>
+  <line x1="290" y1="85" x2="340" y2="85" stroke="#0D9488" stroke-width="2"/>
+  <line x1="290" y1="95" x2="330" y2="95" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="315" cy="108" r="4" fill="#0D9488"/>
+
+  <!-- Comfortable Patient Armchairs -->
+  <rect x="90" y="220" width="70" height="70" rx="12" fill="#8B5CF6"/>
+  <rect x="460" y="220" width="70" height="70" rx="12" fill="#7C3AED"/>
+
+  <text x="30" y="40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#6B21A8">Doctor Consultation Suite</text>
+  <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#64748B">Private, unhurried treatment planning and one-on-one smile counselling</text>
+</svg>
+

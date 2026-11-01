@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F3FF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+  <!-- Room Interior -->
+  <rect width="600" height="400" fill="url(#wallGrad)"/>
+  <!-- Floor -->
+  <polygon points="0,280 600,280 600,400 0,400" fill="#E2E8F0"/>
+  <!-- Back Wall Art with Clinic Logo -->
+  <rect x="200" y="50" width="200" height="90" rx="10" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="240" cy="95" r="22" fill="#7C3AED"/>
+  <text x="240" y="102" font-family="'Inter', sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">💜</text>
+  <text x="275" y="90" font-family="'Poppins', sans-serif" font-size="16" font-weight="700" fill="#4C1D95">SAKTHI</text>
+  <text x="275" y="108" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#0D9488">DENTAL CLINIC</text>
+
+  <!-- Modern Reception Desk -->
+  <path d="M120 220 L480 220 L450 340 L150 340 Z" fill="url(#woodGrad)"/>
+  <rect x="110" y="210" width="380" height="18" rx="6" fill="#F8FAFC"/>
+  <!-- Decorative front light strip -->
+  <line x1="160" y1="280" x2="440" y2="280" stroke="#2DD4BF" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Indoor Plant -->
+  <rect x="60" y="240" width="40" height="60" rx="4" fill="#94A3B8"/>
+  <circle cx="80" cy="200" r="35" fill="#10B981" opacity="0.8"/>
+  <circle cx="70" cy="180" r="25" fill="#059669"/>
+  <circle cx="95" cy="190" r="28" fill="#34D399"/>
+
+  <!-- Comfortable Waiting Sofa -->
+  <rect x="490" y="240" width="80" height="70" rx="10" fill="#CBD5E1"/>
+  <rect x="480" y="260" width="100" height="30" rx="6" fill="#8B5CF6"/>
+
+  <text x="30" y="40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#4C1D95">Reception &amp; Waiting Lounge</text>
+  <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#64748B">Calm, welcoming, air-conditioned patient reception</text>
+</svg>
+

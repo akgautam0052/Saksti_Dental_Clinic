@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0D9488" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+    <linearGradient id="tealGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4C1D95" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative circular bubbles -->
+  <circle cx="300" cy="250" r="210" fill="url(#bgGrad)"/>
+  <circle cx="480" cy="110" r="50" fill="#2DD4BF" opacity="0.15"/>
+  <circle cx="100" cy="380" r="70" fill="#8B5CF6" opacity="0.12"/>
+
+  <!-- Dental Chair & Modern Clinic Illustration Art -->
+  <g transform="translate(100, 60)" filter="url(#softShadow)">
+    <!-- Base Platform -->
+    <ellipse cx="200" cy="370" rx="170" ry="24" fill="#64748B" opacity="0.2"/>
+    
+    <!-- Dental Chair Structure -->
+    <rect x="180" y="270" width="40" height="90" rx="6" fill="#475569"/>
+    <path d="M120 280 C120 280 180 280 230 260 C270 245 290 220 310 180 C315 170 325 172 322 185 C310 235 280 270 235 290 C185 310 125 305 120 280 Z" fill="url(#tealGrad2)"/>
+    
+    <!-- Chair Backrest & Headrest -->
+    <path d="M100 280 L150 200 C155 192 165 194 168 202 L195 270 Z" fill="#0D9488"/>
+    <rect x="80" y="180" width="45" height="28" rx="8" fill="#14B8A6"/>
+    
+    <!-- Overhanging Modern Dental Light -->
+    <path d="M280 340 L280 100 L210 80" stroke="#64748B" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <ellipse cx="205" cy="80" rx="28" ry="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="3"/>
+    <!-- Light Beam -->
+    <polygon points="185,90 225,90 280,240 130,240" fill="#FEF08A" opacity="0.18"/>
+
+    <!-- Doctor Silhouette / Caring Presence -->
+    <circle cx="270" cy="130" r="28" fill="#FDE047" opacity="0.85"/>
+    <!-- Doctor Coat & Stethoscope -->
+    <path d="M235 165 C235 155 250 150 270 150 C290 150 305 155 305 165 L320 250 L220 250 Z" fill="#F8FAFC"/>
+    <path d="M255 160 C255 175 285 175 285 160" stroke="#7C3AED" stroke-width="4" fill="none"/>
+    <circle cx="285" cy="185" r="7" fill="#7C3AED"/>
+
+    <!-- Floating Badge 1: 20+ Years -->
+    <g transform="translate(15, 60)" filter="url(#softShadow)">
+      <rect x="0" y="0" width="130" height="58" rx="14" fill="#FFFFFF"/>
+      <circle cx="28" cy="29" r="18" fill="#EDE9FE"/>
+      <text x="28" y="34" font-family="'Inter', sans-serif" font-size="16" text-anchor="middle">💜</text>
+      <text x="56" y="26" font-family="'Poppins', sans-serif" font-weight="700" font-size="14" fill="#6D28D9">20+ Years</text>
+      <text x="56" y="42" font-family="'Inter', sans-serif" font-weight="500" font-size="10" fill="#64748B">Excellence</text>
+    </g>
+
+    <!-- Floating Badge 2: 100% Gentle & Painless Care -->
+    <g transform="translate(260, 290)" filter="url(#softShadow)">
+      <rect x="0" y="0" width="150" height="58" rx="14" fill="#FFFFFF"/>
+      <circle cx="28" cy="29" r="18" fill="#CCFBF1"/>
+      <text x="28" y="34" font-family="'Inter', sans-serif" font-size="16" text-anchor="middle">✨</text>
+      <text x="56" y="26" font-family="'Poppins', sans-serif" font-weight="700" font-size="13" fill="#0F766E">Gentle Care</text>
+      <text x="56" y="42" font-family="'Inter', sans-serif" font-weight="500" font-size="10" fill="#64748B">Kids & Adults</text>
+    </g>
+
+    <!-- Floating Badge 3: Hosur's Trusted Choice -->
+    <g transform="translate(240, 20)" filter="url(#softShadow)">
+      <rect x="0" y="0" width="140" height="50" rx="12" fill="url(#cardGrad)"/>
+      <text x="18" y="24" font-family="'Inter', sans-serif" font-size="14">⭐</text>
+      <text x="38" y="24" font-family="'Poppins', sans-serif" font-weight="700" font-size="12" fill="#FFFFFF">Hosur Since 2004</text>
+      <text x="18" y="40" font-family="'Inter', sans-serif" font-weight="500" font-size="9" fill="#E9D5FF">Safe & Sterile Clinic</text>
+    </g>
+  </g>
+</svg>
+

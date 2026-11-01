@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pediaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#pediaGrad)"/>
+  <polygon points="0,290 600,290 600,400 0,400" fill="#E2E8F0"/>
+
+  <!-- Fun colorful wall murals -->
+  <circle cx="120" cy="140" r="45" fill="#F472B6" opacity="0.6"/>
+  <circle cx="190" cy="100" r="30" fill="#60A5FA" opacity="0.6"/>
+  <circle cx="260" cy="150" r="40" fill="#34D399" opacity="0.6"/>
+  <polygon points="480,80 500,130 450,110" fill="#FBBF24"/>
+  <polygon points="410,130 440,160 380,170" fill="#C084FC"/>
+
+  <!-- Cute Kid Dental Chair with dinosaur/cartoon theme -->
+  <path d="M220 270 C250 270 300 255 340 220 C370 195 390 170 400 150 L425 170 C395 220 345 275 280 290 Z" fill="#8B5CF6"/>
+  <circle cx="410" cy="140" r="18" fill="#EC4899"/>
+  <rect x="180" y="250" width="50" height="30" rx="8" fill="#A855F7"/>
+  <rect x="280" y="280" width="35" height="70" rx="4" fill="#64748B"/>
+
+  <!-- Toy Box & Balloons -->
+  <rect x="80" y="240" width="70" height="50" rx="6" fill="#F97316"/>
+  <text x="115" y="272" font-family="'Inter', sans-serif" font-size="20" text-anchor="middle">🧸</text>
+  <line x1="80" y1="230" x2="60" y2="120" stroke="#94A3B8" stroke-width="2"/>
+  <circle cx="60" cy="110" r="18" fill="#EF4444"/>
+
+  <text x="30" y="40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#B45309">Pediatric Dental Corner</text>
+  <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#78350F">Child-friendly, fear-free care with toys, videos &amp; gentle approach</text>
+</svg>
+

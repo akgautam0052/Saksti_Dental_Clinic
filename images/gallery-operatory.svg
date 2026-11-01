@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="opGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#opGrad)"/>
+  <polygon points="0,290 600,290 600,400 0,400" fill="#CBD5E1"/>
+
+  <!-- Dental Chair -->
+  <path d="M180 260 C210 260 260 250 310 220 C360 190 390 160 410 140 L440 165 C410 215 350 270 280 290 Z" fill="#0D9488"/>
+  <rect x="140" y="240" width="60" height="35" rx="8" fill="#14B8A6"/>
+  <rect x="250" y="280" width="45" height="70" rx="4" fill="#64748B"/>
+  
+  <!-- Modern Overhead LED Lamp -->
+  <path d="M430 320 L430 70 L340 70" stroke="#64748B" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="320" cy="70" rx="36" ry="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="3"/>
+  <polygon points="300,84 340,84 410,210 220,210" fill="#FEF08A" opacity="0.2"/>
+
+  <!-- Dental Delivery Tray & Instruments -->
+  <path d="M230 300 L230 190 L170 190" stroke="#94A3B8" stroke-width="6" fill="none"/>
+  <rect x="130" y="180" width="90" height="15" rx="3" fill="#E2E8F0" stroke="#94A3B8"/>
+  <circle cx="150" cy="187" r="4" fill="#7C3AED"/>
+  <circle cx="170" cy="187" r="4" fill="#0D9488"/>
+  <circle cx="190" cy="187" r="4" fill="#3B82F6"/>
+
+  <text x="30" y="40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#0F766E">Advanced Dental Operatory</text>
+  <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#64748B">Equipped with ultra-gentle ergonomic dental chair &amp; shadowless lighting</text>
+</svg>
+

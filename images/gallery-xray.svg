@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="xrayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#xrayGrad)"/>
+  
+  <!-- Digital Radiography Viewer Screen -->
+  <rect x="150" y="70" width="300" height="200" rx="12" fill="#020617" stroke="#38BDF8" stroke-width="3"/>
+  <!-- Glowing dental panoramic radiograph silhouette -->
+  <g opacity="0.85">
+    <ellipse cx="300" cy="170" rx="110" ry="55" fill="none" stroke="#38BDF8" stroke-width="12" stroke-dasharray="14 6"/>
+    <!-- Tooth roots glowing -->
+    <path d="M220 170 Q230 200 240 170 Q250 200 260 170 Q270 200 280 170 Q290 200 300 170 Q310 200 320 170 Q330 200 340 170 Q350 200 360 170" stroke="#7DD3FC" stroke-width="4" fill="none"/>
+    <text x="300" y="115" font-family="'Inter', sans-serif" font-size="12" fill="#38BDF8" text-anchor="middle" letter-spacing="2">DIGITAL SENSOR HD VIEW</text>
+  </g>
+
+  <!-- Sensor Arm Device -->
+  <path d="M90 320 L90 140 L150 140" stroke="#64748B" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <circle cx="150" cy="140" r="14" fill="#38BDF8"/>
+  <rect x="70" y="320" width="40" height="40" rx="4" fill="#334155"/>
+
+  <text x="30" y="40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#E2E8F0">Digital Low-Radiation X-Ray Unit</text>
+  <text x="30" y="60" font-family="'Inter', sans-serif" font-size="12" fill="#94A3B8">Instant HD imaging with 80% lower radiation for accurate diagnoses</text>
+</svg>
+
